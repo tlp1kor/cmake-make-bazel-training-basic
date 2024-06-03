@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "src/earth/hello_earth.h"
-#include "src/jupiter/hello_jupiter.h"
+#include "hello_earth.h"
+#include "hello_jupiter.h"
 
 int main() {
     print_hello_earth();
