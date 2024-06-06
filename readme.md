@@ -1,8 +1,12 @@
-To Do: Compile with multiple .c and .h files in different directory using Makefile
+To Do: Compile with multiple .c and .h files in different directory using CMake
 
 Run the following command:
->  make
+>  mkdir __build
+
+>  cmake -B __build .
+
+>  cmake --build ./__build
 
 
 To Test binary:
-> ./hello
+> ./__build/hello
