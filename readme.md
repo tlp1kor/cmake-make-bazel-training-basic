@@ -1,8 +1,12 @@
-To Do: Compile a single .c file using Makefile
+To Do: Compile a single .c file using CMake
 
 Run the following command:
->  make
+>  mkdir __build 
+
+>  cmake -B __build .
+
+>  cmake --build ./__build 
 
 
 To Test binary:
-> ./hello
+> ./__build/hello

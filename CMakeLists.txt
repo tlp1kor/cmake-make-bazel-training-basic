@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(HELLO_WORLD VERSION 0.0.1 LANGUAGES C)
+
+add_executable(hello main.c)
