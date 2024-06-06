@@ -1,7 +1,7 @@
-To Do: Compile two .c files in different directory
+To Do: Compile two .c files in different directory using Makefile
 
 Run the following command:
->  gcc -o hello main.c src/hello.c
+>  make
 
 
 To Test binary:
