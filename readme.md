@@ -1,7 +1,7 @@
-To Do: Compile a single .c file
+To Do: Compile a single .c file using Makefile
 
 Run the following command:
->  gcc -o hello main.c
+>  make
 
 
 To Test binary:
