@@ -16,4 +16,3 @@ target_include_directories(hello PRIVATE
     ${CMAKE_SOURCE_DIR}/src/earth 
     ${CMAKE_SOURCE_DIR}/src/jupiter
 )
-${CMAKE_BINARY_DIR}
