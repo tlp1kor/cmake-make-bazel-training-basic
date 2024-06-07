@@ -1,0 +1,2 @@
+add_subdirectory(earth)
+add_subdirectory(jupiter)

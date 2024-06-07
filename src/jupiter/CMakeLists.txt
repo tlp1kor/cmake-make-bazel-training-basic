@@ -1,0 +1,1 @@
+add_library(jupiter hello_jupiter.c)
