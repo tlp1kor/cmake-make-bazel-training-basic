@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "hello_jupiter.h"
+#include "hello.h"
 
 void print_hello_jupiter() {
     printf("Hello Jupiter!\n");

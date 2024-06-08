@@ -1,0 +1,5 @@
+if(VARIANT STREQUAL "earth")
+    add_library(${HELLO_LIB_NAME} STATIC hello_earth.c)
+elseif(VARIANT STREQUAL "jupiter")
+    add_library(${HELLO_LIB_NAME} STATIC hello_jupiter.c)
+endif()

@@ -1,0 +1,5 @@
+if(VARIANT STREQUAL "earth")
+    add_library(${DISTANCE_LIB_NAME} STATIC distance_earth.c)
+elseif(VARIANT STREQUAL "jupiter")
+    add_library(${DISTANCE_LIB_NAME} STATIC distance_jupiter.c)
+endif()
