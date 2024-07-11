@@ -1,4 +1,4 @@
 cc_binary(
-    name = "hello-world",
+    name = "hello_world",
     srcs = ["main.c"],
 )
