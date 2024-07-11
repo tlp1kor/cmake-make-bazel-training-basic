@@ -1,1 +1,2 @@
-hello
+bazel-*
+MODULE.bazel.lock

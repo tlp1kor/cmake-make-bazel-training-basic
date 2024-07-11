@@ -1,8 +1,8 @@
-To Do: Compile with multiple .c and .h files in different directory
+To Do: Compile with multiple .c and .h files in different directory using Bazel
 
 Run the following command:
->  gcc -o hello main.c src/earth/hello_earth.c src/jupiter/hello_jupiter.c
+>  bazel build //:hello_world
 
 
 To Test binary:
-> ./hello
+> ./bazel-bin/hello_world
