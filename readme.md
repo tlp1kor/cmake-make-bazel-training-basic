@@ -1,8 +1,8 @@
 To Do: Compile a single .c file
 
 Run the following command:
->  gcc -o hello main.c
+>  bazel build //:hello_world
 
 
 To Test binary:
-> ./hello
+> ./bazel-bin/hello_world
